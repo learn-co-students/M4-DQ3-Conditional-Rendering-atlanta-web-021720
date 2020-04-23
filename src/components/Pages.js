@@ -31,9 +31,9 @@ export const Cocktails = () => {
 
   const cocktailsElements = cocktails.drinks.map((drink, idx) => (
     <li key={idx}>
-    	<h5>Name: {drink.name}</h5>
-    	<p>Description: {drink.description}</p>
-    	<br/>
+        <h5>Name: {drink.name}</h5>
+        <p>Description: {drink.description}</p>
+        <br/>
     </li>
   ))
 
